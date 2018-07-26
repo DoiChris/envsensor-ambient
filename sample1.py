@@ -24,7 +24,7 @@ while True:
 
         if data.tick_last_update > latest_update:
             print('Illumination: {} lx'.format(data.val_light))
-            print('val_uv: {} lx'.format(data.val_light))
+            print('val_uv: {} lx'.format(data.val_uv))
             print(vars(data))
 
         latest_update = data.tick_last_update
